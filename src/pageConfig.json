@@ -42,6 +42,14 @@
           "markdown" : "/static/markdown/FAQ.md"
         },
         {
+          "route": "/feedback",
+          "name": "Feedback",
+          "description": "Send us your questions, comments, and/or concerns about Bridge",
+          "topics": [],
+          "icon": "question-circle",
+          "markdown" : "/static/markdown/Feedback.md"
+        },
+        {
           "route": "/roadmap",
           "name": "Our Roadmap",
           "description": "aligning our development plans with our stakeholders",
