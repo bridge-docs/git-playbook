@@ -10,4 +10,4 @@
 ## Registration
 
 - Enter first name, last name, email, password (license number isnt required).
-  [registration page](./images/registration.png "Registration page")
+![registration page](./images/registration.png "Registration page")
