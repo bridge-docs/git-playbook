@@ -1,9 +1,9 @@
 {
-  "appName": "Git",
+  "appName": "Bridge Documentation",
   "headerNavigation": [
     {
-      "name": "Playbook",
-      "path": "/playbook"
+      "name": "Documentation",
+      "path": "/Documentation"
     }
   ],
   "landingPage": "/playbook",
@@ -12,83 +12,99 @@
   ],
   "pages": [
     {
-      "route": "/playbook",
-      "name": "Playbook",
-      "description": "This is the playbook",
+      "route": "/Documentation",
+      "name": "Documentation",
+      "description": "Welcome to Bridge Documentation",
       "icon": "address-book",
       "children": [
         {
-          "route": "/whatsNew",
-          "name": "Whats new ?",
-          "description": "recent announcements, news, latest and greatest",
-          "icon": "bullhorn",
-          "topics": ["news"],
-          "markdown" : "/static/markdown/whatsnew/Current.md"
+          "route": "/overview",
+          "name": "Bridge Overview - Start Here",
+          "description": "A brief description of Bridge software and its features",
+          "topics": ["overview"],
+          "icon": "map-marked-alt",
+          "markdown" : "/static/markdown/SiteDescription.md"
         },
         {
-          "route": "/links",
-          "name": "Helpful Links",
-          "description": "how to go from here ?",
-          "topics": [],
-          "icon": "link",
-          "markdown" : "/static/markdown/Links.md"
-        },
-        {
-          "route": "/faq",
-          "name": "FAQs",
-          "description": "frequently asked questions are covered here",
-          "topics": [],
-          "icon": "question-circle",
-          "markdown" : "/static/markdown/FAQ.md"
-        },
-        {
-          "route": "/feedback",
-          "name": "Feedback",
-          "description": "Send us your questions, comments, and/or concerns about Bridge",
-          "topics": [],
-          "icon": "question-circle",
-          "markdown" : "/static/markdown/Feedback.md"
+          "route": "/howto",
+          "name": "How to use Bridge",
+          "description": "How to use functionality of Bridge Software",
+          "icon": "project-diagram",
+          "topics": ["how to"],
+          "children": [
+            {
+              "route": "/introduction",
+              "name": "Testing Process Introduction",
+              "description": "How to use this documentation to explore Bridge",
+              "icon": "clipboard",
+              "topics": ["how to"],
+              "markdown" : "/static/markdown/howto/Introduction.md"
+            },
+            {
+               "route": "/accounts",
+               "name": "Accounts (Login and Registration)",
+               "description": "Describes Account Login and Registration",
+               "icon": "users",
+               "topics": ["how to", "account"],
+               "markdown" : "/static/markdown/howto/Accounts.md"
+            },
+            {
+               "route": "/profile",
+               "name": "Your Profile",
+               "description": "Describes Profile Functionality",
+               "icon": "user",
+               "topics": ["how to", "profile"],
+               "markdown" : "/static/markdown/howto/Profile.md"
+            },
+            {
+               "route": "/navigation",
+               "name": "Navigation",
+               "description": "How to navigate around the Bridge website",
+               "icon": "map-marked-alt",
+               "topics": ["how to", "profile"],
+               "markdown" : "/static/markdown/howto/Profile.md"
+            },
+            {
+               "route": "/search",
+               "name": "Search",
+               "description": "Describes Search Functionality",
+               "icon": "search",
+               "topics": ["how to", "search"],
+               "markdown" : "/static/markdown/howto/Search.md"
+            },
+            {
+               "route": "/connections",
+               "name": "Connections",
+               "description": "Describes Connections Page Functionality",
+               "icon": "project-diagram",
+               "topics": ["how to", "connections"],
+               "markdown" : "/static/markdown/howto/Connections.md"
+            }
+          ]
         },
         {
           "route": "/eula",
           "name": "End User License Agreement",
           "description": "End User License Agreement for the Bridge Website",
-          "topics": [],
-          "icon": "file",
+          "topics": ["license", "policy"],
+          "icon": "file-alt",
           "markdown" : "/static/markdown/EULA.md"
         },
         {
-          "route": "/roadmap",
-          "name": "Our Roadmap",
-          "description": "aligning our development plans with our stakeholders",
-          "topics": [],
-          "icon": "map-marked-alt",
-          "markdown" : "/static/markdown/Roadmap.md"
+         "route": "/privacy",
+         "name": "Privacy Policy",
+         "description": "Privacy Policy for the Bridge Website",
+         "topics": ["policy"],
+         "icon": "file-alt",
+         "markdown" : "/static/markdown/PrivacyPolicy.md"
         },
         {
-          "route": "/process",
-          "name": "Process Documentation",
-          "description": "anything about process",
-          "icon": "project-diagram",
-          "topics": ["process"],
-          "children": [
-            {
-              "route": "/introduction",
-              "name": "Process Introduction",
-              "description": "how to read the process documentation",
-              "icon": "project-diagram",
-              "topics": ["process"],
-              "markdown" : "/static/markdown/process/Introduction.md"
-            },
-            {
-              "route": "/newPagesHowto",
-              "name": "New Pages HowTo",
-              "description": "how to create new Pages on the playbook",
-              "icon": "file-alt",
-              "topics": ["process"],
-              "markdown" : "/static/markdown/process/NewPagesHowto.md"
-            }
-          ]
+          "route": "/feedback",
+          "name": "Feedback",
+          "description": "Send us your questions, comments, and/or concerns about Bridge",
+          "topics": ["feedback"],
+          "icon": "question-circle",
+          "markdown" : "/static/markdown/Feedback.md"
         }
       ]
     }
