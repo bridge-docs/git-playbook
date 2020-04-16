@@ -3,16 +3,16 @@
   "headerNavigation": [
     {
       "name": "Documentation",
-      "path": "/Documentation"
+      "path": "/documentation"
     }
   ],
-  "landingPage": "/playbook",
+  "landingPage": "/documentation",
   "topics": [
   	"news"
   ],
   "pages": [
     {
-      "route": "/Documentation",
+      "route": "/documentation",
       "name": "Documentation",
       "description": "Welcome to Bridge Documentation",
       "icon": "address-book",
