@@ -42,6 +42,22 @@
           "markdown" : "/static/markdown/FAQ.md"
         },
         {
+          "route": "/feedback",
+          "name": "Feedback",
+          "description": "Send us your questions, comments, and/or concerns about Bridge",
+          "topics": [],
+          "icon": "question-circle",
+          "markdown" : "/static/markdown/Feedback.md"
+        },
+        {
+          "route": "/eula",
+          "name": "End User License Agreement",
+          "description": "End User License Agreement for the Bridge Website",
+          "topics": [],
+          "icon": "file",
+          "markdown" : "/static/markdown/EULA.md"
+        },
+        {
           "route": "/roadmap",
           "name": "Our Roadmap",
           "description": "aligning our development plans with our stakeholders",
@@ -74,7 +90,7 @@
             }
           ]
         }
-      ]      
+      ]
     }
   ]
 }
