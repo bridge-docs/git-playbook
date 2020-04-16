@@ -83,6 +83,22 @@
           ]
         },
         {
+          "route": "/backend-setup",
+          "name": "API Setup",
+          "description": "How to set up the API for the Bridge Website",
+          "topics": ["how to", "setup"],
+          "icon": "file-alt",
+          "markdown" : "/static/markdown/setup-backend.md"
+        },
+        {
+          "route": "/frontend-setup",
+          "name": "Website Setup",
+          "description": "How to set up the Bridge Website",
+          "topics": ["how to", "setup"],
+          "icon": "file-alt",
+          "markdown" : "/static/markdown/setup-frontend.md"
+        },
+        {
           "route": "/eula",
           "name": "End User License Agreement",
           "description": "End User License Agreement for the Bridge Website",
