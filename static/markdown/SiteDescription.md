@@ -4,8 +4,10 @@
 
 Bridge is an online professional networking platform and client management tool suite for mental healthcare professionals. 
 
-The features implemented consist of registering as a mental healthcare professional, creating a public profile to display practice information, searching for other professional peers, and connecting to those peers.
+The features currently implemented consist of registering as a mental healthcare professional, creating a public profile to display practice information, searching for other professional peers, and connecting to those peers.
 
+[_**Click here to access the Alpha Bridge product release.**_](https://bridge-front-end.appspot.com/ "Bridge's Login Landing") 
+You can then follow along with the instructions provided on the next pages in this guide.
 
 ## Features Implemented
 
